@@ -8,7 +8,7 @@ export class Timer {
         this.onTimeUp = onTimeUp; // Callback function when timer reaches 0
         this.onWarning = onWarning; // Callback function when warning threshold is reached
         this.intervalId = null; // ID for the setInterval function
-        this.warningThreshold = 15; // Seconds remaining when warning should trigger
+        this.warningThreshold = 10; // Seconds remaining when warning should trigger
     }
 
     // Start the countdown timer
